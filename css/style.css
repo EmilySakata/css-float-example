@@ -1,2 +1,15 @@
 .card {
   line-height: 0; }
+  @media (max-width: 1280px) {
+    .card {
+      width: auto; } }
+  .card img {
+    width: 400px; }
+    @media (max-width: 1280px) {
+      .card img {
+        display: inline; } }
+    @media (max-width: 880px) {
+      .card img {
+        width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
